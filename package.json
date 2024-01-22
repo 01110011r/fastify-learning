@@ -1,5 +1,5 @@
 {
-  "name": "fastify-learning-crud",
+  "name": "fastify-learning",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p tsconfig.json",
-    "start": "node index.js",
+    "start": "node src/index.ts",
     "dev": "nodemon ./src/index.ts"
   },
   "keywords": [],
@@ -17,8 +17,8 @@
     "fastify": "^4.25.2"
   },
   "devDependencies": {
-    "@types/node": "^20.11.0",
-    "nodemon": "^3.0.2",
+    "@types/node": "^20.11.5",
+    "nodemon": "^3.0.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
